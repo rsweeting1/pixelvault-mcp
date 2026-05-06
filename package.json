@@ -1,0 +1,29 @@
+{
+  "name": "pixelvault-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.rsweeting1/pixelvault",
+  "description": "MCP server for PixelVault — compliance-cleared AI asset search and licensing for post production, editorial, and e-commerce",
+  "keywords": ["mcp", "ai-assets", "licensing", "compliance", "post-production", "editorial", "b-roll", "pixelvault"],
+  "author": "Robert Sweeting <outreach@pixelvaultai.com>",
+  "license": "MIT",
+  "homepage": "https://pixelvault-ui.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsweeting1/pixelvault-mcp"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "pixelvault-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
